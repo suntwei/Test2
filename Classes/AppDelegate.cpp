@@ -9,7 +9,8 @@ static cocos2d::Size mediumResolutionSize = cocos2d::Size(1024, 768);
 static cocos2d::Size largeResolutionSize = cocos2d::Size(2048, 1536);
 
 AppDelegate::AppDelegate() {
-
+    //wells==>>test
+    int testInt =  998;
 }
 
 AppDelegate::~AppDelegate() 
@@ -78,6 +79,8 @@ bool AppDelegate::applicationDidFinishLaunching() {
     auto scene = HelloWorld::createScene();
 
     // run
+    
+    //run with hello world scene
     director->runWithScene(scene);
 
     return true;

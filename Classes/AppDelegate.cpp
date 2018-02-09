@@ -9,7 +9,8 @@ static cocos2d::Size mediumResolutionSize = cocos2d::Size(1024, 768);
 static cocos2d::Size largeResolutionSize = cocos2d::Size(2048, 1536);
 
 AppDelegate::AppDelegate() {
-
+//test 2
+ string str= "wells";
 }
 
 AppDelegate::~AppDelegate() 
@@ -71,9 +72,9 @@ bool AppDelegate::applicationDidFinishLaunching() {
     {        
         director->setContentScaleFactor(MIN(smallResolutionSize.height/designResolutionSize.height, smallResolutionSize.width/designResolutionSize.width));
     }
-
+	
     register_all_packages();
-
+	//wells haha
     // create a scene. it's an autorelease object
     auto scene = HelloWorld::createScene();
 

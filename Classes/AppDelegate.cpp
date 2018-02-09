@@ -79,6 +79,8 @@ bool AppDelegate::applicationDidFinishLaunching() {
     auto scene = HelloWorld::createScene();
 
     // run
+    
+    //run with hello world scene
     director->runWithScene(scene);
 
     return true;
